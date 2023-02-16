@@ -1,3 +1,101 @@
 Body{
-    font-family: "Roboto","sans-serif"
+    font-family: "Roboto","sans-serif";
+    background-color:  #E5E5E5;
+}
+.Logo{
+    font-size: 40px;
+    color: black;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.TopContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.TopContainer-Right{
+    width: 1044px;
+    height: 311px;
+    margin-left: 15px;
+}
+
+.AFJ{
+    margin-top: 98px;
+    margin-left: 15px;
+    display: flex;
+    background-color: #CBCBCC;
+    width: 383px;
+    height: 83px;
+    border-radius: 30px;
+}
+
+.AFJ-Text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color:black;
+}
+.AFJ-Image{
+    width: 30px;
+    height: 35px;
+    align-self: center;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.Home{
+    width: 383px;
+    height: 83px;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top:70px;
+}
+
+.TCL-Text{
+    font-weight: 400;
+    font-size:36px;
+}
+.Home-Image{
+    width: 40px;
+    height: 35px;
+    margin-left: 30px;
+    margin-right: 10px;
+    float: left;
+}
+.Containers{
+    display: flex;
+    flex-direction: column;
+}
+
+.Welcome{
+    margin-left: 30px;
+    font-weight:600;
+}
+.Sub{
+    margin-top: 60px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+.LB{
+    padding-left:31px;
+    padding-top:20px;
+    margin-left: 15px;
+    width: 383px;
+    height: 475px;
+    border-radius: 30px;
+    background: #CBCBCC;
+}
+.LB-Text{
+    margin-left: 10px;
+}
+
+.Profile-Image{
+    float: left;
+    margin-right: 10px;
+}
+
+.Apply-Image{
+    margin-top: 10px;
+    float: left;
+    margin-right: 17px;
 }
