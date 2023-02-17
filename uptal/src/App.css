@@ -1,6 +1,6 @@
 Body{
     font-family: "Roboto","sans-serif";
-    background-color:  #E5E5E5;
+    background-color:  #FFFFFF;
 }
 .Logo{
     font-size: 40px;
@@ -15,8 +15,10 @@ Body{
 }
 
 .TopContainer-Right{
-    width: 1044px;
-    height: 311px;
+    border-radius: 30px;
+    background-color: #FBFBFB;
+    width: 1055px;
+    height: 355px;
     margin-left: 15px;
 }
 
@@ -24,7 +26,7 @@ Body{
     margin-top: 98px;
     margin-left: 15px;
     display: flex;
-    background-color: #CBCBCC;
+    background-color: #cfcfcf;
     width: 383px;
     height: 83px;
     border-radius: 30px;
@@ -72,6 +74,7 @@ Body{
     font-weight:600;
 }
 .Sub{
+    font-weight: 500;
     margin-top: 60px;
     margin-left: 30px;
     font-weight: 400;
@@ -83,7 +86,7 @@ Body{
     width: 383px;
     height: 475px;
     border-radius: 30px;
-    background: #CBCBCC;
+    background: #cfcfcf;
 }
 .LB-Text{
     margin-left: 10px;
@@ -98,4 +101,39 @@ Body{
     margin-top: 10px;
     float: left;
     margin-right: 17px;
+}
+
+.ArrayElement{
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 230px;
+    height:140px;
+    border-radius: 20px;
+}
+
+.ArrayCircle{
+    padding-top: 10px;
+    border-radius: 50px;
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #999999;
+    width:40px;
+    height: 30px;
+}
+
+.ArrayText{
+    font-weight: 400;
+    color: #999999;
+}
+.TCR-Array{
+    display: flex;
+    flex-direction: row;
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
 }
