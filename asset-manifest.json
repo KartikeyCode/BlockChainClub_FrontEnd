@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BlockChainClub_FrontEnd/static/css/main.4b05fd30.css",
+    "main.js": "/BlockChainClub_FrontEnd/static/js/main.8208dc7d.js",
+    "static/media/main.png": "/BlockChainClub_FrontEnd/static/media/main.d090fe88883017f77699.png",
+    "index.html": "/BlockChainClub_FrontEnd/index.html",
+    "main.4b05fd30.css.map": "/BlockChainClub_FrontEnd/static/css/main.4b05fd30.css.map",
+    "main.8208dc7d.js.map": "/BlockChainClub_FrontEnd/static/js/main.8208dc7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b05fd30.css",
+    "static/js/main.8208dc7d.js"
+  ]
+}
