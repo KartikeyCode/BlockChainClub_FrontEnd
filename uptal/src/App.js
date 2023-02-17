@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 import MainImage from "./pictures/main.png"
 import ArrayElements from './ArrayElement';
 import Container from './Leftcontainer';

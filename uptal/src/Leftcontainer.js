@@ -1,4 +1,5 @@
 import React from "react";
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 import CheckImage from "./pictures/check.png"
 import HomeImage from "./pictures/home.png"
 import SquareImage from "./pictures/square.png"
@@ -9,15 +10,19 @@ function Container(){
             <img className="AFJ-Image" src={CheckImage}></img>
             <h2 className='AFJ-Text'>Available for Job</h2>
           </div>
+          <Link to="/" className="LinkG">
           <div className='Home'>
             <img className="Home-Image" src={HomeImage}></img>
             <h2 className='TCL-Text'>Home</h2>
           </div>
+          </Link>
           <div className='LB'>
+          <Link to="/Profile" className="LinkG">
             <div className='Profile'>
             <img src={CheckImage} className="Profile-Image"></img>
             <h2 className='TCL-Text LB-Text'> Profile</h2>
             </div>
+            </Link>
             <div className='Apply'>
               <img src={SquareImage} className="Apply-Image"></img>
               <h2 className='TCL-Text LB-Text'> Apply for Jobs</h2>

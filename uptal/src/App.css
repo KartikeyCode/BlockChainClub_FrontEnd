@@ -53,6 +53,14 @@ Body{
     margin-top:70px;
 }
 
+.Home:hover{
+    transform: scale(1.05);
+}
+
+.Profile:hover{
+    transform: scale(1.05);
+}
+
 .TCL-Text{
     font-weight: 400;
     font-size:36px;
@@ -124,6 +132,20 @@ Body{
     height: 30px;
 }
 
+.Circle{
+    flex: none;
+    margin-right: 20px;
+    font-size: 30px;
+    line-height: 55px;
+    padding-top: 10px;
+    border-radius: 50px;
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #999999;
+    width:80px;
+    height: 70px;
+}
+
 .ArrayText{
     font-weight: 400;
     color: #999999;
@@ -135,5 +157,77 @@ Body{
 .Main{
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 95px;
+}
+
+.LinkG{
+    text-decoration: none;
+    color: black;
+}
+
+.P2Containers{
+    display: flex;
+}
+
+::placeholder {
+    color: black;
+  }
+
+.FormContainer{
+    
+    width: 925px;
+    height: 750px;
+    margin-left: 85px;
+}
+
+.InputMain{
+    margin-top: 20px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+}
+.Line{
+    margin-top: 100px;
+    opacity: 0.3;
+    height: 2px;
+    background: #cfcfcf;
+}
+.Across{
+    margin-top: 50px;
+    display: flex;
+}
+.InputName{
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+.InputLocation{
+    opacity: 0.8;
+    margin-left: 100px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.InputSub{
+    font-weight: 500;
+    width: 45%;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.Line1{
+    margin-top: 50px;
+    opacity: 0.3;
+    height: 2px;
+    background: #cfcfcf;
 }
